@@ -10,7 +10,7 @@ NIM: 2609116024
 
  Program yang saya buat adalah program untuk melihat data lukisan dari penulis terkenal untuk pengunjung. Sedangkan untuk admin, admin dapat melihat, mengubah, menambah dan menghapus data (CRUD). Berikut adalah flowchart dari program saya:
 
- <img width="797" height="1386" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/f79935b7-4293-49c4-9c7a-007e41f30786" />
+ <img width="797" height="1385" alt="art_done drawio" src="https://github.com/user-attachments/assets/aac2fd8d-1ca1-4890-90df-39470c30e681" />
 
  # Penjelasan Alur Flowchart
 
@@ -24,7 +24,7 @@ Program akan memanggilkan function dari ``page_staff()``, lalu user dapat memili
 
  Program hanya menampilkan 2 opsi yang bisa diakses oleh ``visitor``, yaitu ``1. view art`` dan ``2. Exit``. Jika user memilih opsi pertama maka program akan menampilkan tebal data lukisan. Jika user memilih opsi kedua maka program akan kembali ke menu login.
 
-# Output
+# Output sebagai admin
 
 <img width="333" height="229" alt="Screenshot 2026-10-06 125222" src="https://github.com/user-attachments/assets/5ee696c8-ad25-4224-bb84-e619f7be4c7c" />
 
@@ -44,4 +44,28 @@ Program akan memanggilkan function dari ``page_staff()``, lalu user dapat memili
 
 <img width="380" height="397" alt="Screenshot 2026-10-06 160459" src="https://github.com/user-attachments/assets/a2bc9d6b-a3b2-4d72-b555-23291a6c5ced" />
 
-5. Output jika user memilih opsi keempat, maka setelahnya user akan diminta mengisi nomor man ayang ingin dihapus dari tabel. Lalu, 
+5. Output jika user memilih opsi keempat, maka setelahnya user akan diminta mengisi nomor mana yang ingin dihapus dari tabel. Lalu,  program akan menampilkan nama dari karya yang dihapus. Setelah itu program akan menampilkan tabel baru.
+
+<img width="344" height="92" alt="Screenshot 2026-10-06 165619" src="https://github.com/user-attachments/assets/f8065e63-baf4-413a-823d-cb90f6877fba" />
+
+6. Output jika user memilih opsi kelima, maka program akan kembali ke menu login dan terminal akan dibersihkan dari program sebelumnya menggunakan library os (dipanggil dengan function ``clear_screen()``).
+
+<img width="339" height="193" alt="Screenshot 2026-10-06 170212" src="https://github.com/user-attachments/assets/834c2392-4e90-4674-9dee-16dc369e989d" />
+
+7. Output jika user memilih angka yang tidak ada di menu. Terminal akan dibersihkan dengan ``clear_screen()``.
+
+# Output sebagai Visitor
+
+<img width="373" height="398" alt="image" src="https://github.com/user-attachments/assets/ee561c4d-baff-47a4-9f69-e87c6f35fe59" />
+
+1. Output jika user memilih opsi pertama, maka program akan menampilkan tabel data lukisan. Visitor tidak bisa mengakses CRUD. Karena saya tidak menggunakan fungsi ``clear_screen`` pada kode ``page_pengunjung``, maka setelah memilih opsi, output menu masih terlihat, tidak terhapus.
+
+<img width="332" height="166" alt="Screenshot 2026-10-06 171608" src="https://github.com/user-attachments/assets/44e18f7e-98de-43ee-8815-1629bb3e7885" />
+
+2. Output jika user memilih opsi kedua.
+
+<img width="340" height="130" alt="Screenshot 2026-10-06 171810" src="https://github.com/user-attachments/assets/7f8bc30b-24e3-4d14-9777-3650323f6d73" />
+
+3. Output jika user memilih opsi yang tidak ada di menu.
+
+note: saya masih belum mengerti bagian error handling, terima kasih.
