@@ -23,3 +23,6 @@ Program akan memanggilkan function dari ``page_staff()``, lalu user dapat memili
 2. Jika ``usn`` dan ``pass`` merupakan user dengan role ``visitor``:
 
  Program hanya menampilkan 2 opsi yang bisa diakses oleh ``visitor``, yaitu ``1. view art`` dan ``2. Exit``. Jika user memilih opsi pertama maka program akan menampilkan tebal data lukisan. Jika user memilih opsi kedua maka program akan kembali ke menu login.
+
+# Output
+
