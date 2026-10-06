@@ -26,3 +26,22 @@ Program akan memanggilkan function dari ``page_staff()``, lalu user dapat memili
 
 # Output
 
+<img width="333" height="229" alt="Screenshot 2026-10-06 125222" src="https://github.com/user-attachments/assets/5ee696c8-ad25-4224-bb84-e619f7be4c7c" />
+
+1. Output jika user menginput ``usn`` dan ``pass`` dengan role ``etmint`` dan program akan menampilkan 5 opsi.
+
+<img width="395" height="173" alt="Screenshot 2026-10-06 125409" src="https://github.com/user-attachments/assets/9bc924d1-87a0-40bc-91af-18bc35ff59cb" />
+
+2. Output jika user memilih opsi pertama
+
+<img width="379" height="311" alt="Screenshot 2026-10-06 153633" src="https://github.com/user-attachments/assets/0c829f73-4ab1-488c-9a41-9829fdfcc16c" />
+
+3. Output jika user memilih opsi kedua, setelahnya user dapat mengisi/input data-data yang diubah untuk menambah data baru  karya ke dalam tabel. Setelah mengisi data yang dibutuhkan, program akan menampilkan tabel baru secara otomatis (menggunakan function ``liat_art``).
+
+<img width="382" height="428" alt="Screenshot 2026-10-06 155647" src="https://github.com/user-attachments/assets/8904e717-fcfb-44ae-9f0c-840679225e4b" />
+
+ 4. Output jika user memilih opsi ketiga, setelahnya program akan menampilkan tabel terlebih dahulu lalu meminta user untuk mengisi data-data yang dibutuhkan untuk bisa mengubah data pada tabel. Setelahnya, program akan secara otomatis menampilkan tabel yang sudah diupdate.
+
+<img width="380" height="397" alt="Screenshot 2026-10-06 160459" src="https://github.com/user-attachments/assets/a2bc9d6b-a3b2-4d72-b555-23291a6c5ced" />
+
+5. Output jika user memilih opsi keempat, maka setelahnya user akan diminta mengisi nomor man ayang ingin dihapus dari tabel. Lalu, 
